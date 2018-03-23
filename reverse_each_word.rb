@@ -7,5 +7,3 @@ def reverse_each_word(string)
 end
 
   string.split.collect{|word| word.reverse}.join(" ")
-end
-end
